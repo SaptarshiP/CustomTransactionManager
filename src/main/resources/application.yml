@@ -1,0 +1,13 @@
+checkMy:
+  db:
+    url: jdbc:mysql://localhost:3306/orchestra
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8085
